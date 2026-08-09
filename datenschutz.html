@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Datenschutzerklärung | Mietkoch</title>
+    <meta name="description" content="Datenschutzerklärung für die Website und die Dienstleistungen als Mietkoch.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+            background: #f7f5f0;
+            color: #292929;
+            line-height: 1.7;
+        }
+
+        /* HEADER */
+        header {
+            background: #aaa39f;
+            color: black;
+            padding: 28px 20px;
+        }
+
+        .header-inner {
+            max-width: 1050px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            color: black; 
+            text-decoration: none; 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            letter-spacing: 0.5px; 
+            white-space: nowrap; 
+        }
+    
+
+        .back-link {
+            color: black;
+            text-decoration: none;
+            font-size: 0.95rem;
+            opacity: 0.85;
+            transition: opacity 0.2s ease;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* HERO */
+        .hero {
+            background: #aaa39f;
+            color: black;
+            padding: 50px 20px 75px;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.4rem, 6vw, 4rem);
+            font-weight: 400;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            color: black;
+            font-size: 1.05rem;
+        }
+
+/*Navigation*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+nav a.active {
+    opacity: 0.6;
+}
+
+
+        /* CONTENT */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 70px 20px 90px;
+        }
+
+        .section {
+            background: white;
+            padding: 35px 40px;
+            margin-bottom: 24px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.035);
+        }
+
+        .section h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.65rem;
+            font-weight: 400;
+            color: #292929;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .section h2::after {
+            content: "";
+            display: block;
+            width: 45px;
+            height: 2px;
+            background: #aaa39f;
+            margin-top: 12px;
+        }
+
+        .section p {
+            margin-bottom: 16px;
+        }
+
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-box {
+            background: #f7f5f0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .contact-box strong {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .contact-box a {
+            color: #292929;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .placeholder {
+            color: #aaa39f;
+            font-weight: 600;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #1f1f1f;
+            color: #bdbdbd;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .footer-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* MOBILE */
+        @media (max-width: 700px) {
+
+            header {
+                padding: 22px 18px;
+            }
+
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero {
+                padding: 60px 20px 55px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            main {
+                padding: 45px 15px 60px;
+            }
+
+            .section {
+                padding: 27px 22px;
+                border-radius: 8px;
+            }
+
+            .section h2 {
+                font-size: 1.4rem;
+            }
+
+            .contact-box {
+                padding: 20px;
+            }
+            }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+
+    <a href="index.html" class="logo">
+        Cédric Juillot - Mietkoch
+    </a>
+
+</div>
+
+           <nav>
+            <a href="index.html">Startseite</a>
+            <a href="ueber_mich.html">Über mich</a>
+        </nav>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Datenschutzerklärung</h1>
+        <p>
+            Informationen zum Umgang mit personenbezogenen Daten
+        </p>
+    </div>
+</section>
+
+
+<main>
+
+    <div class="intro">
+        <strong>Hinweis zum Datenschutz</strong>
+        <p>
+            Der Schutz deiner persönlichen Daten ist mir wichtig.
+            Im Folgenden erfährst du, welche personenbezogenen Daten
+            bei der Nutzung meiner Website und bei der Kontaktaufnahme
+            verarbeitet werden.
+        </p>
+    </div>
+
+
+    <!-- 1 -->
+    <section class="section">
+        <h2>1. Verantwortlicher</h2>
+
+        <p>
+            Verantwortlicher für die Verarbeitung personenbezogener Daten
+            auf dieser Website und im Rahmen meiner geschäftlichen Tätigkeit
+            als Mietkoch ist:
+        </p>
+
+        <div class="contact-box">
+            <strong>Cédric Juillot</strong>
+            Triftstraße 29<br>
+            60528 Frankfurt am Main<br>
+            Deutschland<br><br>
+
+            <strong>E-Mail</strong>
+           cedric.juillot@web.de<br><br>
+
+            <strong>Telefon</strong>
+           0176 70816979
+        </div>
+    </section>
+
+
+    <!-- 2 -->
+    <section class="section">
+        <h2>2. Allgemeines zur Datenverarbeitung</h2>
+
+        <p>
+            Der Schutz deiner persönlichen Daten ist mir wichtig.
+            Ich verarbeite personenbezogene Daten ausschließlich im Rahmen
+            der geltenden datenschutzrechtlichen Vorschriften, insbesondere
+            der Datenschutz-Grundverordnung (DSGVO).
+        </p>
+
+        <p>
+            Personenbezogene Daten sind Informationen, die sich auf eine
+            identifizierte oder identifizierbare Person beziehen, beispielsweise
+            Name, E-Mail-Adresse oder Telefonnummer.
+        </p>
+
+        <p>
+            Ich erhebe und verarbeite grundsätzlich nur solche personenbezogenen
+            Daten, die für die Bearbeitung von Anfragen, die Kommunikation mit
+            Interessenten und Kunden sowie die Durchführung meiner
+            Dienstleistungen erforderlich sind.
+        </p>
+    </section>
+
+
+    <!-- 3 -->
+    <section class="section">
+        <h2>3. Besuch meiner Website</h2>
+
+        <p>
+            Beim Besuch dieser Website werden keine Analyse- oder
+            Tracking-Dienste eingesetzt.
+        </p>
+
+        <p>Ich verwende insbesondere:</p>
+
+        <ul>
+            <li>kein Google Analytics,</li>
+            <li>keine Werbe- oder Tracking-Cookies,</li>
+            <li>keine eingebetteten YouTube-Videos,</li>
+            <li>keine extern eingebundenen Google Fonts,</li>
+            <li>keine sonstigen externen Analyse- oder Marketingdienste.</li>
+        </ul>
+
+        <p>
+            Die Website dient im Wesentlichen der Information über meine
+            Leistungen sowie der Möglichkeit, mit mir Kontakt aufzunehmen.
+        </p>
+    </section>
+
+
+    <!-- 4 -->
+    <section class="section">
+        <h2>4. Kontaktaufnahme per Kontaktformular</h2>
+
+        <p>
+            Auf meiner Website besteht die Möglichkeit, über ein Kontaktformular
+            mit mir Kontakt aufzunehmen.
+        </p>
+
+        <p>Dabei können folgende personenbezogene Daten verarbeitet werden:</p>
+
+        <ul>
+            <li>Name</li>
+            <li>E-Mail-Adresse</li>
+            <li>Telefonnummer</li>
+            <li>Inhalt der Nachricht</li>
+        </ul>
+
+        <p>
+            Die Verarbeitung erfolgt, um deine Anfrage zu bearbeiten,
+            Rückfragen zu ermöglichen und gegebenenfalls die von dir
+            angefragte Dienstleistung vorzubereiten oder durchzuführen.
+        </p>
+
+        <p>
+            Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. b DSGVO,
+            sofern die Kontaktaufnahme auf den Abschluss oder die Durchführung
+            eines Vertrags abzielt. In anderen Fällen erfolgt die Verarbeitung
+            auf Grundlage meines berechtigten Interesses an der Bearbeitung
+            von Anfragen gemäß Art. 6 Abs. 1 lit. f DSGVO.
+        </p>
+
+        <p>
+            Die Angabe der Daten ist grundsätzlich freiwillig. Ohne die für
+            die Bearbeitung einer Anfrage erforderlichen Angaben kann ich
+            die Anfrage gegebenenfalls nicht bearbeiten.
+        </p>
+    </section>
+
+
+    <!-- 5 -->
+    <section class="section">
+        <h2>5. Kontaktaufnahme per E-Mail und Telefon</h2>
+
+        <p>
+            Wenn du mich per E-Mail oder telefonisch kontaktierst, verarbeite
+            ich die von dir mitgeteilten personenbezogenen Daten, soweit dies
+            für die Bearbeitung deiner Anfrage erforderlich ist.
+        </p>
+
+        <p>
+            Hierzu können insbesondere dein Name, deine E-Mail-Adresse,
+            deine Telefonnummer und die von dir mitgeteilten Informationen
+            gehören.
+        </p>
+
+        <p>
+            Die Verarbeitung erfolgt zur Bearbeitung deiner Anfrage sowie
+            gegebenenfalls zur Vorbereitung oder Durchführung eines Vertrags.
+        </p>
+
+        <p>
+            Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern die Anfrage
+            mit einem Vertragsverhältnis zusammenhängt. Ansonsten erfolgt
+            die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+        </p>
+    </section>
+
+
+    <!-- 6 -->
+    <section class="section">
+        <h2>6. Kontaktaufnahme über WhatsApp</h2>
+
+        <p>
+            Eine Kontaktaufnahme ist gelegentlich auch über WhatsApp möglich.
+        </p>
+
+        <p>
+            Hierfür wird mein privater WhatsApp-Account verwendet. Wenn du mich
+            über WhatsApp kontaktierst, werden die von dir dort übermittelten
+            personenbezogenen Daten verarbeitet. Dazu können insbesondere dein
+            Name bzw. der in WhatsApp verwendete Name, deine Telefonnummer sowie
+            der Inhalt der Kommunikation gehören.
+        </p>
+
+        <p>
+            Die Nutzung von WhatsApp erfolgt ausschließlich zur Kommunikation
+            mit Interessenten und Kunden, beispielsweise zur Beantwortung von
+            Fragen oder zur Abstimmung im Zusammenhang mit einer angefragten
+            Dienstleistung.
+        </p>
+
+        <p>
+            Bitte beachte, dass WhatsApp ein Dienst eines externen Anbieters ist.
+            Bei der Kommunikation über WhatsApp kann daher eine Verarbeitung
+            personenbezogener Daten durch WhatsApp bzw. den Betreiber des
+            Dienstes erfolgen. Auf diese Verarbeitung habe ich keinen
+            vollständigen Einfluss.
+        </p>
+
+        <p>
+            Die Kommunikation über WhatsApp ist freiwillig. Du kannst mich
+            alternativ per E-Mail, Telefon oder über das Kontaktformular
+            erreichen.
+        </p>
+    </section>
+
+
+    <!-- 7 -->
+    <section class="section">
+        <h2>7. Speicherdauer</h2>
+
+        <p>
+            Personenbezogene Daten werden nur so lange gespeichert, wie dies
+            für den jeweiligen Zweck erforderlich ist.
+        </p>
+
+        <p>
+            Kontaktdaten aus Anfragen werden grundsätzlich noch für einen
+            begrenzten Zeitraum nach Abschluss der Anfrage gespeichert,
+            soweit dies für eine weitere Kommunikation erforderlich ist.
+        </p>
+
+        <p>
+            Darüber hinaus können gesetzliche Aufbewahrungspflichten bestehen.
+            Soweit gesetzliche Aufbewahrungspflichten bestehen, werden die
+            betreffenden Daten für die Dauer der gesetzlichen Aufbewahrungsfrist
+            gespeichert und anschließend gelöscht, sofern kein anderer
+            rechtlicher Grund für eine weitere Speicherung besteht.
+        </p>
+    </section>
+
+
+    <!-- 8 -->
+    <section class="section">
+        <h2>8. Weitergabe von Daten</h2>
+
+        <p>
+            Eine Weitergabe personenbezogener Daten an Dritte erfolgt
+            grundsätzlich nicht, sofern dies nicht zur Bearbeitung einer
+            Anfrage, zur Durchführung eines Vertrags, aufgrund einer
+            gesetzlichen Verpflichtung oder zur Wahrung berechtigter
+            Interessen erforderlich ist.
+        </p>
+
+        <p>
+            Soweit für den Betrieb der Website oder die Verarbeitung von Daten
+            externe Dienstleister eingesetzt werden, erfolgt dies nur im
+            Rahmen der gesetzlichen Voraussetzungen.
+        </p>
+    </section>
+
+
+    <!-- 9 -->
+    <section class="section">
+        <h2>9. Deine Rechte</h2>
+
+        <p>
+            Du hast nach Maßgabe der gesetzlichen Voraussetzungen insbesondere
+            folgende Rechte:
+        </p>
+
+        <ul>
+            <li>
+                Recht auf Auskunft über deine gespeicherten personenbezogenen
+                Daten (Art. 15 DSGVO)
+            </li>
+            <li>
+                Recht auf Berichtigung unrichtiger Daten (Art. 16 DSGVO)
+            </li>
+            <li>
+                Recht auf Löschung deiner personenbezogenen Daten (Art. 17 DSGVO)
+            </li>
+            <li>
+                Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
+            </li>
+            <li>
+                Recht auf Datenübertragbarkeit (Art. 20 DSGVO)
+            </li>
+            <li>
+                Recht auf Widerspruch gegen bestimmte Verarbeitungen
+                (Art. 21 DSGVO)
+            </li>
+        </ul>
+
+        <p>
+            Sofern die Verarbeitung auf einer Einwilligung beruht, kannst du
+            diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
+            Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung
+            bleibt davon unberührt.
+        </p>
+
+        <p>
+            Zur Ausübung deiner Rechte kannst du dich jederzeit an die oben
+            genannte verantwortliche Person wenden.
+        </p>
+    </section>
+
+
+    <!-- 10 -->
+    <section class="section">
+        <h2>10. Beschwerderecht bei einer Aufsichtsbehörde</h2>
+
+        <p>
+            Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde
+            über die Verarbeitung deiner personenbezogenen Daten zu beschweren.
+        </p>
+
+        <p>
+            Die Beschwerde kann insbesondere bei der für deinen Wohnort,
+            deinen Arbeitsplatz oder den Sitz meines Unternehmens zuständigen
+            Datenschutz-Aufsichtsbehörde eingereicht werden.
+        </p>
+    </section>
+
+
+    <!-- 11 -->
+    <section class="section">
+        <h2>11. Keine automatisierte Entscheidungsfindung</h2>
+
+        <p>
+            Eine automatisierte Entscheidungsfindung einschließlich Profiling
+            im Sinne von Art. 22 DSGVO findet nicht statt.
+        </p>
+    </section>
+
+
+    <!-- 12 -->
+    <section class="section">
+        <h2>12. Stand</h2>
+
+        <p>
+            Stand: <strong>August 2026</strong>
+        </p>
+    </section>
+
+</main>
+
+
+<footer>
+    <div class="footer-inner">
+        <p>
+            © 2026 Cédric Juillot ·
+            <a href="index.html">Startseite</a>
+        </p>
+
+        <p>
+            Datenschutzerklärung
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

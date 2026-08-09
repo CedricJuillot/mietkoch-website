@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Impressum | Mietkoch</title>
+    <meta name="description" content="Impressum des Mietkoch-Unternehmens.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+            background: #f7f5f0;
+            color: #292929;
+            line-height: 1.7;
+        }
+
+        /* HEADER */
+        header {
+            background: #aaa39f;
+            color: black;
+            padding: 28px 20px;
+        }
+
+        .header-inner {
+            max-width: 1050px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            color: black; 
+            text-decoration: none; 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            letter-spacing: 0.5px; 
+            white-space: nowrap; 
+        }
+    
+
+        .back-link {
+            color: black;
+            text-decoration: none;
+            font-size: 0.95rem;
+            opacity: 0.85;
+            transition: opacity 0.2s ease;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* HERO */
+        .hero {
+            background: #aaa39f;
+            color: black;
+            padding: 50px 20px 75px;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.4rem, 6vw, 4rem);
+            font-weight: 400;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            color: black;
+            font-size: 1.05rem;
+        }
+
+/*Navigation*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+nav a.active {
+    opacity: 0.6;
+}
+
+
+        /* CONTENT */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 70px 20px 90px;
+        }
+
+        .section {
+            background: white;
+            padding: 35px 40px;
+            margin-bottom: 24px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.035);
+        }
+
+        .section h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.65rem;
+            font-weight: 400;
+            color: #292929;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .section h2::after {
+            content: "";
+            display: block;
+            width: 45px;
+            height: 2px;
+            background: #aaa39f;
+            margin-top: 12px;
+        }
+
+        .section p {
+            margin-bottom: 16px;
+        }
+
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-box {
+            background: #f7f5f0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .contact-box strong {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .contact-box a {
+            color: #292929;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .placeholder {
+            color: #aaa39f;
+            font-weight: 600;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #1f1f1f;
+            color: #bdbdbd;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .footer-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* MOBILE */
+        @media (max-width: 700px) {
+
+            header {
+                padding: 22px 18px;
+            }
+
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero {
+                padding: 60px 20px 55px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            main {
+                padding: 45px 15px 60px;
+            }
+
+            .section {
+                padding: 27px 22px;
+                border-radius: 8px;
+            }
+
+            .section h2 {
+                font-size: 1.4rem;
+            }
+
+            .contact-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+
+        <a href="index.html" class="logo">
+        Cédric Juillot - Mietkoch
+    </a>
+
+<nav>
+<a href="index.html">Startseite</a>
+<a href="ueber_mich.html">Über mich</a>
+</nav>
+
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Impressum</h1>
+        <p>
+            Angaben gemäß § 5 DDG
+        </p>
+    </div>
+</section>
+
+
+<main>
+
+    <!-- Anbieter -->
+    <section class="section">
+
+        <h2>Angaben zum Anbieter</h2>
+
+        <p>
+            Verantwortlich für den Inhalt dieser Website und Anbieter
+            der dargestellten Dienstleistungen ist:
+        </p>
+
+        <div class="contact-box">
+
+            <strong>Cédric Juillot</strong>
+
+            Triftstraße 29<br>
+            60528 Frankfurt am Main<br>
+            Deutschland
+
+        </div>
+
+    </section>
+
+
+    <!-- Kontakt -->
+    <section class="section">
+
+        <h2>Kontakt</h2>
+
+        <div class="contact-box">
+
+            <strong>E-Mail</strong>
+
+            <a href="mailto:[E-Mail-Adresse]">
+                cedric.juillot@web.de
+            </a>
+
+            <br><br>
+
+            <strong>Telefon</strong>
+
+            <a href="tel:[Telefonnummer]">
+                0176 70816979
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Steuer -->
+    <section class="section">
+
+        <h2>Umsatzsteuer</h2>
+
+        <p>
+            Umsatzsteuer-Identifikationsnummer gemäß § 27a
+            Umsatzsteuergesetz: xxxxxxxxxxxx <!--Ust-ID noch rein-->
+        </p>
+
+        <div class="contact-box">
+
+            <strong>USt-IdNr.</strong>
+
+            xxxxxxxxxxxxxxxxxx <!--Ust-ID noch rein-->
+
+        </div>
+
+    </section>
+
+
+    <!-- Verantwortlich -->
+    <section class="section">
+
+        <h2>Verantwortlich für den Inhalt</h2>
+
+        <p>
+            Verantwortlich für den Inhalt nach den allgemeinen
+            gesetzlichen Vorschriften ist:
+        </p>
+
+        <div class="contact-box">
+
+            <strong>Cédric Juillot</strong>
+
+            Triftstraße 29<br>
+            60528 Frankfurt am Main<br>
+            Deutschland
+
+        </div>
+
+    </section>
+
+
+    <!-- Haftung -->
+    <section class="section">
+
+        <h2>Haftung für Inhalte</h2>
+
+        <p>
+            Als Diensteanbieter bin ich gemäß den allgemeinen Gesetzen
+            für eigene Inhalte auf dieser Website verantwortlich.
+            Ich bin jedoch nicht verpflichtet, übermittelte oder
+            gespeicherte fremde Informationen zu überwachen oder nach
+            Umständen zu suchen, die auf eine rechtswidrige Tätigkeit
+            hinweisen.
+        </p>
+
+        <p>
+            Verpflichtungen zur Entfernung oder Sperrung der Nutzung
+            von Informationen nach den allgemeinen Gesetzen bleiben
+            hiervon unberührt.
+        </p>
+
+    </section>
+
+
+    <!-- Haftung Links -->
+    <section class="section">
+
+        <h2>Haftung für Links</h2>
+
+        <p>
+            Diese Website kann gegebenenfalls Links zu externen
+            Websites Dritter enthalten. Auf deren Inhalte habe ich
+            keinen Einfluss.
+        </p>
+
+        <p>
+            Für die Inhalte der verlinkten Seiten ist stets der
+            jeweilige Anbieter oder Betreiber verantwortlich.
+            Eine permanente inhaltliche Kontrolle der verlinkten
+            Seiten ist ohne konkrete Anhaltspunkte einer
+            Rechtsverletzung nicht zumutbar.
+        </p>
+
+        <p>
+            Bei Bekanntwerden von Rechtsverletzungen werde ich
+            entsprechende Links unverzüglich entfernen.
+        </p>
+
+    </section>
+
+
+    <!-- Urheberrecht -->
+    <section class="section">
+
+        <h2>Urheberrecht</h2>
+
+        <p>
+            Die auf dieser Website erstellten Inhalte und Werke
+            unterliegen dem deutschen Urheberrecht.
+        </p>
+
+        <p>
+            Die Vervielfältigung, Bearbeitung, Verbreitung und jede
+            Art der Verwertung außerhalb der Grenzen des Urheberrechts
+            bedürfen der vorherigen schriftlichen Zustimmung des
+            jeweiligen Rechteinhabers.
+        </p>
+
+        <p>
+            Soweit die Inhalte auf dieser Website nicht vom Betreiber
+            erstellt wurden, werden die Urheberrechte Dritter beachtet.
+            Insbesondere werden Inhalte Dritter als solche gekennzeichnet,
+            soweit dies erforderlich ist.
+        </p>
+
+    </section>
+
+
+    <!-- Stand -->
+    <section class="section">
+
+        <h2>Stand</h2>
+
+        <p>
+            Stand: <strong>August 2026</strong>
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-inner">
+
+        <p>
+            © 2026 Cédric Juillot·
+            <a href="index.html">Startseite</a> ·
+            <a href="datenschutz.html">Datenschutz</a>
+        </p>
+
+        <p>
+            Impressum
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
