@@ -1,2 +1,0 @@
-# mietkoch-website
-Mietkoch Website
